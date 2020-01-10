@@ -53,7 +53,7 @@ config :liveview_template, LiveviewTemplateWeb.Endpoint,
       ~r"priv/gettext/.*(po)$",
       ~r"lib/liveview_template_web/{live,views}/.*(ex)$",
       ~r"lib/liveview_template_web/templates/.*(eex)$",
-      ~r{lib/my_app_web/live/.*(ex)$}
+      ~r{lib/liveview_template_web/live/.*(ex)$}
     ]
   ]
 
